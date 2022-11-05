@@ -8,7 +8,8 @@ public class VariablesTheme {
         float frequence = 2.4f;
         double systemAssemble = 19044.2130d;
         char currency = 'R';
-        System.out.println("\nНоутбук: DEXP Aquilon" +
+        System.out.println(
+                "\nНоутбук: DEXP Aquilon" +
                 "\nЦена:" + price +
                 "\nЦеновая категория до: " + priceSegment + currency + "" +
                 "\nКоличество ядер в процессоре: " + core +
@@ -80,7 +81,11 @@ public class VariablesTheme {
         char ch3 = '@';
         char ch4 = '^';
         char ch5 = '_';
-        System.out.println("\n35 " + ch1 + "\n38 " + ch2 + "\n64 " + ch3 + "\n94 " + ch4 + "\n95 " + ch5);
+        System.out.println("\n"+ (int) ch1 + " " + ch1 + 
+                "\n" + (int) ch2 + " " + ch2 +
+                "\n" + (int) ch3 + " " + ch3 +
+                "\n" + (int) ch4 + " " + ch4 +
+                "\n" + (int) ch5 + " " + ch5);
 
         System.out.println("\n7. Вывод количества сотен, десятков и единиц числа");
         int srcNum = 123;
